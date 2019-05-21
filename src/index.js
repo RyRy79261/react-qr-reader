@@ -6,7 +6,8 @@ const havePropsChanged = require('./havePropsChanged')
 const createBlob = require('./createBlob')
 
 // Require adapter to support older browser implementations
-require('webrtc-adapter')
+// require('webrtc-adapter')
+import adapter from 'webrtc-adapter';
 
 // Inline worker.js as a string value of workerBlob.
 // eslint-disable-next-line
